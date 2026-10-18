@@ -16,7 +16,7 @@ def test_complete_bounded_vector_is_enforced():
         "ordered segment ids required",
         '"QUIET", "CONDITIONAL", "LOUD"',
         "valid evidence indexes required",
-        "conditional band needs a condition",
+        "exactly one declaring observation required",
     ):
         assert token in SRC
 
