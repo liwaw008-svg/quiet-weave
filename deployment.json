@@ -1,0 +1,12 @@
+{
+  "account": "liwaw008-svg",
+  "network": "StudioNet",
+  "contractAddress": "0xeEC7e5Ff9071Ac62e07ab7aC562e6C6774f2EF2e",
+  "deploymentTransaction": "0xd013c832d30455272edde7d02ffa208059c95d8d1cecff80574785dcba82c2d3",
+  "deploymentConsensus": "MAJORITY_AGREE",
+  "deploymentExecution": "SUCCESS",
+  "sourceSha256": "02ee56a1db6e96f682228ad777efbfdd39f3b754ed9218f5fddb4334d0e23d65",
+  "sourceCommit": "f25b76ac2f0c1386c92f47319492e7cdd03a0923",
+  "repository": "https://github.com/liwaw008-svg/quiet-weave",
+  "publicSite": "https://quiet-weave.pages.dev/"
+}

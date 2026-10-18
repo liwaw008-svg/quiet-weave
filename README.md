@@ -25,4 +25,10 @@ python -m pytest -q
 genvm-lint lint contracts/contract.py
 ```
 
-StudioNet deployment and live canonical readback are recorded after release.
+## StudioNet release
+
+- App: [quiet-weave.pages.dev](https://quiet-weave.pages.dev/)
+- Contract: [`0xeEC7e5Ff9071Ac62e07ab7aC562e6C6774f2EF2e`](https://explorer-studio.genlayer.com/address/0xeEC7e5Ff9071Ac62e07ab7aC562e6C6774f2EF2e)
+- Deployment: [`0xd013c832d30455272edde7d02ffa208059c95d8d1cecff80574785dcba82c2d3`](https://explorer-studio.genlayer.com/transactions/0xd013c832d30455272edde7d02ffa208059c95d8d1cecff80574785dcba82c2d3)
+
+The exact source digest and canonical lifecycle readback are recorded in `deployment.json` and `evidence/live-run.json`.

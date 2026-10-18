@@ -1,0 +1,136 @@
+{
+  "recordType": "synthetic scheduling rehearsal; not a certified acoustic measurement",
+  "loomId": "LOOM-1792364112",
+  "contractAddress": "0xeEC7e5Ff9071Ac62e07ab7aC562e6C6774f2EF2e",
+  "transactions": {
+    "set": "0x8834ed86eaab327927f9b2ee50a2ad30a32db9a3ac4ffdff503fd87090200710",
+    "weave": "0xcb4d1797848f8d6201d52a6dfacbb50e4464ffa8873fb03f95f713805a1f207f",
+    "pin": "0xa609e8a89b27caad084182933a18ce37f577650b848a68095e96782be29432c6"
+  },
+  "readback": {
+    "classifications": [
+      {
+        "condition": "",
+        "evidence_indexes": [
+          0
+        ],
+        "reason": "B1 classified LOUD from front desk log",
+        "segment_id": "B1",
+        "status": "LOUD"
+      },
+      {
+        "condition": "",
+        "evidence_indexes": [
+          0
+        ],
+        "reason": "B2 classified QUIET from front desk log",
+        "segment_id": "B2",
+        "status": "QUIET"
+      },
+      {
+        "condition": "",
+        "evidence_indexes": [
+          1
+        ],
+        "reason": "B3 classified QUIET from room steward log",
+        "segment_id": "B3",
+        "status": "QUIET"
+      },
+      {
+        "condition": "Follow the limits stated by room steward log",
+        "evidence_indexes": [
+          1
+        ],
+        "reason": "B4 classified CONDITIONAL from room steward log",
+        "segment_id": "B4",
+        "status": "CONDITIONAL"
+      },
+      {
+        "condition": "",
+        "evidence_indexes": [
+          2
+        ],
+        "reason": "B5 classified LOUD from programme calendar",
+        "segment_id": "B5",
+        "status": "LOUD"
+      },
+      {
+        "condition": "",
+        "evidence_indexes": [
+          2
+        ],
+        "reason": "B6 classified LOUD from programme calendar",
+        "segment_id": "B6",
+        "status": "LOUD"
+      }
+    ],
+    "id": "LOOM-1792364112",
+    "input_digest": "abd10d0d80f32cd559eb05e0a61a7e8932fef1c1ed97e8768b9c606dfc576907",
+    "minimum_segments": 2,
+    "observations": [
+      {
+        "detail": "B1=LOUD because deliveries occupy the entrance. B2=QUIET because deliveries are complete and the room is undisturbed.",
+        "label": "front desk log"
+      },
+      {
+        "detail": "B3=QUIET under the stated standard. B4=CONDITIONAL because readers must remain away from the east-wall furniture reset.",
+        "label": "room steward log"
+      },
+      {
+        "detail": "B5=LOUD because the school group and furniture reset overlap. B6=LOUD because a scheduled reading circle occupies the room.",
+        "label": "programme calendar"
+      }
+    ],
+    "outcome": "WINDOW",
+    "owner": "0x05C0cc3F433F6e296f18117f558FdB9043434793",
+    "quiet_standard": "Find at least two consecutive one-hour bands suitable for quiet reading, allowing only minor steady background sound.",
+    "segments": [
+      {
+        "end": 600,
+        "id": "B1",
+        "label": "09:00",
+        "start": 540
+      },
+      {
+        "end": 660,
+        "id": "B2",
+        "label": "10:00",
+        "start": 600
+      },
+      {
+        "end": 720,
+        "id": "B3",
+        "label": "11:00",
+        "start": 660
+      },
+      {
+        "end": 780,
+        "id": "B4",
+        "label": "12:00",
+        "start": 720
+      },
+      {
+        "end": 840,
+        "id": "B5",
+        "label": "13:00",
+        "start": 780
+      },
+      {
+        "end": 900,
+        "id": "B6",
+        "label": "14:00",
+        "start": 840
+      }
+    ],
+    "selected_ids": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "state": "PINNED",
+    "timezone": "Africa/Casablanca",
+    "title": "Shared reading room quiet window",
+    "window_end": 780,
+    "window_start": 600
+  }
+}
