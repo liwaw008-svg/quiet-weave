@@ -104,6 +104,9 @@ class QuietWeave(gl.Contract):
     looms: TreeMap[str, Loom]
     used_inputs: TreeMap[str, bool]
 
+    def __init__(self):
+        pass
+
     def _get(self, loom_id):
         key = identifier(loom_id)
         if key not in self.looms:
